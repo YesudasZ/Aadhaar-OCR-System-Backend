@@ -32,6 +32,7 @@ module.exports = (client) => {
             }
 
             const extractedDetails = extractAadhaarDetails(frontText, backText);
+console.log("Testing", extractedDetails);
 
             res.json({
                 success: true,
